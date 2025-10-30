@@ -1,3 +1,4 @@
+// nav导航栏配置
 export default [
       {
         text: '🏡首页',
@@ -15,7 +16,7 @@ export default [
             {
                 text: '🪁图床搭建', 
                 items: [
-                    {text: 'CloudFlare-ImgBed', link: 'https://cfbed.sanyue.de/',},
+                    {text: 'CloudFlare-ImgBed', link: '/02.ImgBed/01.图床搭建.md',},
                 ]
             },
             {
@@ -38,7 +39,7 @@ export default [
       {
         text: '🗃️知识库',
         items: [
-            {text: 'Window相关', link: '/note/01.Windows/01.Windows系统相关.md',},
+            {text: 'Window相关', link: '/01.Windows/01.Windows系统相关.md',},
         ],
       },
 
@@ -50,8 +51,6 @@ export default [
           { text: '电影', link: '/movie' },
         ],
       },
-
-
 
     //   {
     //     text: '👏索引',
