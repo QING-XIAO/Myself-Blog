@@ -38,7 +38,7 @@ import './style/scrollbar-2.scss'; // 滚动条样式-2,渐变色滚动条
 import "./components/guangbiaoTX/guangbiaoTX.scss"; // ⬅️ 鼠标拖尾样式scss
 import { useGuangbiaoTX } from "./components/guangbiaoTX/useGuangbiaoTX"; // ⬅️ 导入鼠标拖尾星星动画ts
 
-import confetti from "./components/Confetti.vue"
+import confetti from "./components/Confetti.vue"; // 主页五彩纸屑
 
 
 export default {
