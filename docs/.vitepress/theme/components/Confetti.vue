@@ -4,7 +4,7 @@ import { inBrowser } from "vitepress";
 
 if (inBrowser) {
   /* 纸屑代码这里配置 */
-  var duration = 10 * 100;
+  var duration = 8 * 140;
   var animationEnd = Date.now() + duration;
   var skew = 1;
 
@@ -26,7 +26,7 @@ if (inBrowser) {
         // since particles fall down, skew start toward the top
         y: (Math.random() * skew) - 0.2
         },
-        colors: ['#EFC3CA'],
+        colors: ['#FF007F'],
         shapes: ['circle'],
         gravity: randomInRange(0.4, 0.6),
         scalar: randomInRange(0.4, 1),
