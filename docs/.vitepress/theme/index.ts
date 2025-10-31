@@ -39,7 +39,7 @@ import "./components/guangbiaoTX/guangbiaoTX.scss"; // ⬅️ 鼠标拖尾样式
 import { useGuangbiaoTX } from "./components/guangbiaoTX/useGuangbiaoTX"; // ⬅️ 导入鼠标拖尾星星动画ts
 
 import confetti from "./components/Confetti.vue"; // 主页五彩纸屑
-
+import sakura from './components/sakura.js'; // 主页樱花飘落
 
 export default {
   extends: Teek,
@@ -47,9 +47,12 @@ export default {
   setup: () => { // 复制提示 功能，当复制文本时，会在顶部添加一些提示语
     useCopyBanner("复制成功, 转载请标注本文地址", 1200); 
   },
+  // enhanceApp({ app }) {
+  //   // 注册组件
+  //   app.component('confetti' , confetti)  //五彩纸屑
+  // },
   enhanceApp({ app }) {
-    // 注册组件
-    app.component('confetti' , confetti)  //五彩纸屑
+    app.use(sakura); // 樱花飘落
   },
 };
 
