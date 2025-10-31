@@ -439,6 +439,7 @@ export default defineConfig({
   description: "A VitePress Site",
   extends: teekConfig,
   head: [['link', { rel: 'icon', href: 'https://cloudflare-imgbed-8mr.pages.dev/file/Website/网站logo.jpg' }]],
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // nav: [
@@ -572,8 +573,20 @@ export default defineConfig({
         }
       }
     },
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',  // { dateStyle: 'full',  timeStyle: 'medium' }
+        timeStyle: 'short'
+      }
+    },
+    editLink: {
+      pattern: 'https://github.com/QING-XIAO/Myself-Blog',
+      text: '在 GitHub 上编辑此页'
+    },  
 
   },
+
   markdown: {
     lineNumbers: true,  //代码块行号
     image: {

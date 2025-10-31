@@ -4,7 +4,7 @@ import { inBrowser } from "vitepress";
 
 if (inBrowser) {
   /* 纸屑代码这里配置 */
-  var duration = 10 * 160;
+  var duration = 10 * 100;
   var animationEnd = Date.now() + duration;
   var skew = 1;
 
