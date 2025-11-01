@@ -6,6 +6,13 @@
 ## 🎯 图床
 > CloudFlare Page部署页面 + Telegram Bot转发到Telegram Channel实现无限存储 Nice!!
 
+``` bash
+图片居中的两种写法: 
+
+1. HTML语法: <img src="/path/to/your/image.jpg" alt="图片描述" style="display: block; margin: 0 auto;">
+2. 某些扩展了Markdown语法的解析器: ![图片](/path/to/your/image.jpg){style="display: block; margin: 0 auto"}
+```
+
 采用 [CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) 所搭建.
 
 ## 🏅 部署
