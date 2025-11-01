@@ -11,6 +11,7 @@ export default [
                 text: '🧩博客搭建', 
                 items: [
                     {text: 'VitePress', link: 'https://vitepress.dev/zh/',},
+                    {text: 'CloudFlare', link: 'https://dash.cloudflare.com/',},
                 ]
             },
             {
