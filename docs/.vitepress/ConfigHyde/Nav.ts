@@ -18,6 +18,7 @@ export default [
                 text: '🪁图床搭建', 
                 items: [
                     {text: 'CloudFlare-ImgBed', link: '/02.ImgBed/01.图床搭建.md',},
+                    {text: 'Myself图床', link: 'https://cloudflare-imgbed-8mr.pages.dev/',},
                 ]
             },
             {
