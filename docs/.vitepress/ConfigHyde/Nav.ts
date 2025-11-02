@@ -74,4 +74,11 @@ export default [
     //       { text: '👏开源项目', link: '/opensource' },
     //     ],
     //   },
+      {
+        text: "🎯 功能页",
+        items: [
+          {text: '⏳ 归档页', link: '/archives'},
+          {text: '⚓ 标签页', link: '/tags'},
+        ]
+      }
     ];

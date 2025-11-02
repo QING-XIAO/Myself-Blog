@@ -194,7 +194,7 @@ const teekConfig = defineTeekConfig({
     // ...
   },
   homeCardListPosition: "left", //卡片栏列表位置 "left" | "right" | false
-  homeCardSort: ["docAnalysis", "topArticle", "category", "tag", "friendLink"], // 首页卡片的位置排序
+  homeCardSort: ["docAnalysis", "topArticle", "tag", "category", "friendLink"], // 首页卡片的位置排序
   tagColor: [
     { border: "#bfdbfe", bg: "#eff6ff", text: "#2563eb" },
     { border: "#e9d5ff", bg: "#faf5ff", text: "#9333ea" },
@@ -230,7 +230,7 @@ const teekConfig = defineTeekConfig({
     dateFormat: "yyyy-MM-dd hh:mm:ss", // 精选文章的日期格式
   },
   category: {
-    enabled: false, // 是否启用分类卡片
+    enabled: true, // 是否启用分类卡片
     path: "/categories", // 分类页访问地址
     pageTitle: "🗂️全部分类", // 分类页卡片标题
     homeTitle: "🗃️文章分类", // 卡片标题
@@ -241,14 +241,14 @@ const teekConfig = defineTeekConfig({
     pageSpeed: 4000, // 翻页间隔时间，单位：毫秒。autoPage 为 true 时生效
   },
   tag: {
-    enabled: false, // 是否启用标签卡片
+    enabled: true, // 是否启用标签卡片
     path: "/tags", // 标签页访问地址
     pageTitle: "🔖全部标签", // 标签页页卡片标题
     homeTitle: "🏷️热门标签", // 卡片标题
     moreLabel: "更多 ...", //  查看更多分类标签
     emptyLabel: "暂无标签", // 标签为空时的标签
-    limit: 21, // 一页显示的数量
-    autoPage: false, // 是否自动翻页
+    limit: 25, // 一页显示的数量
+    autoPage: true, // 是否自动翻页
     pageSpeed: 4000, // 翻页间隔时间，单位：毫秒。autoPage 为 true 时生效
   },
   friendLink: {
@@ -299,6 +299,7 @@ const teekConfig = defineTeekConfig({
         show: true,
       },
       { key: "visitCount", show: false },
+      { key: "runtime", show: false },
     ],
     // 自定义额外信息
     // appendInfo: [{ key: "index", label: "序号", value: "天客 99" }],
@@ -356,7 +357,7 @@ const teekConfig = defineTeekConfig({
     enabled: true, // 是否启用单文章页 Banner, 仅在没有侧边栏的文章页生效
     showCategory: true, // 是否展示分类
     showTag: true, // 是否展示标签
-    defaultCoverImg: "../images/post/bg/1.jpg", // 默认封面图
+    defaultCoverImg: "https://b770a0f3.cloudflare-imgbed-8mr.pages.dev/file/bg/3.jpg", // 默认封面图
     defaultCoverBgColor: "#4aa7e6ff", // 默认封面背景色，优先级低于 defaultCoverImg
   },
   articleAnalyze: {

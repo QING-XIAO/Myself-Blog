@@ -45,7 +45,7 @@ export default {
   extends: Teek,
   Layout: TeekLayoutProvider,
   setup: () => { // 复制提示 功能，当复制文本时，会在顶部添加一些提示语
-    useCopyBanner("复制成功, 转载请标注本文地址", 1200); 
+    useCopyBanner("偷偷复制被我发现了吧, ✍转载要注明来源哦", 1800); 
   },
   enhanceApp({ app }) {
     // 注册组件

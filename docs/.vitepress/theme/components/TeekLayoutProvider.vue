@@ -9,6 +9,7 @@ import ScheduleCard from "./ScheduleCard.vue"; //节日倒计时卡片
 import NotFound from "../components/404.vue";
 import GlobalGreet from "./GlobalGreet.vue"; //导入全局问候组件
 import DocFooterCopyright from "./DocFooterCopyright.vue"; //导入文档页脚版权组件
+import ContributeChart from "./ContributeChart.vue"; //归档页贡献图
 
 // 运行时间
 import { watch, nextTick } from "vue"; 
@@ -63,6 +64,11 @@ watch(
     <!-- 文章末尾版权说明 -->
     <template #doc-footer-before>
       <DocFooterCopyright />
+    </template>
+
+    <!-- 归档页贡献图 -->
+    <template #teek-archives-top-before>
+      <ContributeChart />
     </template>
 
   </Teek.Layout>
