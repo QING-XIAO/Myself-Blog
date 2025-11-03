@@ -41,16 +41,16 @@ export default [
       {
         text: '🗃️知识库',
         items: [
-            {text: 'Window相关', link: '/01.Windows/01.Windows系统相关.md',},
+            {text: '💻 Window相关', link: '/01.Windows/01.Windows系统相关.md',},
         ],
       },
 
       {
         text: '🏓娱乐',
         items: [
-          { text: '相册', link: '/photo' },
-          { text: '音乐', link: '/music' },
-          { text: '电影', link: '/movie' },
+          { text: '🎞️ 影视', link: '/03.Movie/01.追剧指南.md' },
+          { text: '🎶 音乐', link: '/movie' },
+          { text: '🕹️ 游戏', link: '/photo' },
         ],
       },
 
