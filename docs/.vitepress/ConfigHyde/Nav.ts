@@ -42,6 +42,7 @@ export default [
         text: '🗃️知识库',
         items: [
             {text: '💻 Window相关', link: '/01.Windows/01.Windows系统相关.md',},
+            {text: '🔱 GitHub相关', link: '/06.Github/01.Scoop.md',},
         ],
       },
 
