@@ -257,7 +257,7 @@ onMounted(() => {
 
 /* 进度条样式 */
 progress {
-  width: 90%;
+  width: 93%;
   height: 10px;
   border-radius: 5px;
   background-color: #f0f0f0;
@@ -356,6 +356,7 @@ progress::-webkit-progress-value {
   font-weight: 600;
   width: 60px;
   display: inline-block;
+  margin-left: 22px;
 }
 .aside-span2 {
   font-size: 13px;
