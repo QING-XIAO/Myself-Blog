@@ -356,7 +356,7 @@ progress::-webkit-progress-value {
   font-weight: 600;
   width: 60px;
   display: inline-block;
-  margin-left: 22px;
+  margin-left: 22px;  /*调整"%"左边距*/ 
 }
 .aside-span2 {
   font-size: 13px;

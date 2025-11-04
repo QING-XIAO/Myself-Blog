@@ -230,7 +230,7 @@ const teekConfig = defineTeekConfig({
     dateFormat: "yyyy-MM-dd hh:mm:ss", // 精选文章的日期格式
   },
   category: {
-    enabled: true, // 是否启用分类卡片
+    enabled: false, // 是否启用分类卡片
     path: "/categories", // 分类页访问地址
     pageTitle: "🗂️全部分类", // 分类页卡片标题
     homeTitle: "🗃️文章分类", // 卡片标题
