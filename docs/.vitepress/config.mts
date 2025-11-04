@@ -430,6 +430,14 @@ const teekConfig = defineTeekConfig({
       // site: "site",
     },
   },
+  siteAnalytics: [
+    {
+      provider: "baidu",
+      options: {
+        id: "245a5eb1db7830440b1151d918efcfa3",
+      },
+    },
+  ],
 
 
 });
