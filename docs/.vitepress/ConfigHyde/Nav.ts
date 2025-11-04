@@ -19,6 +19,9 @@ export default [
                 items: [
                     {text: 'CloudFlare-ImgBed', link: '/02.ImgBed/01.图床搭建.md',},
                     {text: 'Myself图床', link: 'https://cloudflare-imgbed-8mr.pages.dev/',},
+                    {text: '免版税图片', link: 'https://pixabay.com/',},
+                    {text: '压缩图片', link: 'https://squoosh.app/',},
+                    {text: 'Wallspic', link: 'https://wallspic.com/cn',},
                 ]
             },
             {
