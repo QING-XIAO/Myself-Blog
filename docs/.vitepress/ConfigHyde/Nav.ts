@@ -53,7 +53,7 @@ export default [
         text: '🏓娱乐',
         items: [
           { text: '🎞️ 影视', link: '/03.Movie/01.追剧指南.md' },
-          { text: '🎶 音乐', link: '/movie' },
+          { text: '🎶 音乐', link: '/04.Music/01.HiFiNi音乐磁场.md'},
           { text: '🕹️ 游戏', link: '/photo' },
         ],
       },
