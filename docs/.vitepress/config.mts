@@ -437,6 +437,13 @@ const teekConfig = defineTeekConfig({
         id: "245a5eb1db7830440b1151d918efcfa3",
       },
     },
+    {
+      provider: "umami",
+      options: {
+        id: "32c443eba2b4",
+        src: "https://cloud.umami.is/script.js",
+      },
+    },
   ],
 
 
