@@ -424,6 +424,7 @@ const teekConfig = defineTeekConfig({
       category: "Announcements",
       categoryId: "DIC_kwDOOSmmjs4CosiI",
       inputPosition: "top",
+      mapping: "title",
 
       // artalk 配置，官网：https://artalk.js.org/
       // server: "your server",
