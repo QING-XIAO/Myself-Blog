@@ -83,6 +83,7 @@ export default [
         items: [
           {text: '⏳ 归档页', link: '/archives'},
           {text: '⚓ 标签页', link: '/tags'},
+          {text: '🌏 网站统计', link: 'https://cloud.umami.is/share/fSPKAWXYGAN1CVgT'},
         ]
       }
     ];
