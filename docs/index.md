@@ -2,7 +2,7 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 title: QING-XIAO
-titleTemplate: 唯日月星辰与信仰恒古不灭
+titleTemplate: 唯信仰与日月亘古不灭
 
 # hero:
 #   name: "QING-XIAO's Blog"

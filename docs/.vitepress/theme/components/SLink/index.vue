@@ -113,7 +113,7 @@
 名称: QING-XIAO
 链接: https://myself-blog.pages.dev/
 头像: https://cloudflare-imgbed-8mr.pages.dev/file/Website/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E5%A4%B4%E5%83%8F.jpg
-描述: 唯日月星辰与信仰亘古不灭</pre>
+描述: 唯信仰与日月亘古不灭</pre>
         <!-- 评论区插槽 -->
         <!-- 默认为Twikoo评论组件，可通过插槽自定义其他评论系统 -->
         <slot name="comments">
