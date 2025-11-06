@@ -185,7 +185,7 @@ const teekConfig = defineTeekConfig({
   },
   page: {
     disabled: false, // 是否禁用
-    pageSize: 20, // 每页显示条目数
+    pageSize: 6, // 每页显示条目数
     pagerCount: 7, // 设置最大页码按钮数。 页码按钮的数量，当总页数超过该值时会折叠
     layout: "prev, pager, next, jumper, ->, total", // 组件布局，子组件名用逗号分隔
     size: "default", // 分页大小
@@ -441,7 +441,7 @@ const teekConfig = defineTeekConfig({
     {
       provider: "umami",
       options: {
-        id: "32c443eba2b4",
+        id: "f0107c5b501e",
         src: "https://cloud.umami.is/script.js",
       },
     },
