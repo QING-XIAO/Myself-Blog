@@ -12,6 +12,7 @@ export default [
                 items: [
                     {text: 'VitePress', link: 'https://vitepress.dev/zh/',},
                     {text: 'CloudFlare', link: 'https://dash.cloudflare.com/',},
+                    {text: 'Vitepress Theme Teek', link: 'https://vp.teek.top/',},
                 ]
             },
             {
@@ -20,19 +21,13 @@ export default [
                     {text: 'CloudFlare-ImgBed', link: '/02.ImgBed/01.图床搭建.md',},
                     {text: 'Myself图床', link: 'https://cloudflare-imgbed-8mr.pages.dev/',},
                     {text: '免版税图片', link: 'https://pixabay.com/',},
-                    {text: '压缩图片', link: 'https://squoosh.app/',},
+                    {text: '图片压缩', link: 'https://squoosh.app/',},
                     {text: 'Wallspic', link: 'https://wallspic.com/cn',},
                 ]
             },
             {
                 text: '🪄博客美化', 
                 items: [
-                    {text: 'Vitepress Theme Teek', link: 'https://vp.teek.top/',},
-                    {text: 'One Blog', link: 'https://onedayxyy.cn/',},
-                    {text: '白木💕纸鸢社🗞️', link: 'https://baimu.live/',},
-                    {text: 'Hyde Blog', link: 'https://teek.seasir.top/',},
-                    {text: '威威 Blog', link: 'https://dl-web.top/',},
-                    {text: '时光笔记', link: 'https://kandu.cxcare.top/',},
                     {text: 'emoji表情', link: 'https://www.webfx.com/tools/emoji-cheat-sheet/',},
                     {text: 'Canvas Confetti', link: 'https://www.kirilv.com/canvas-confetti/',},
 
@@ -83,6 +78,7 @@ export default [
         items: [
           {text: '⏳ 归档页', link: '/archives'},
           {text: '⚓ 标签页', link: '/tags'},
+          {text: '🔗 我的友链', link: '/07.FriendLink/01.我的友链.md'},
           {text: '🌏 网站统计', link: 'https://cloud.umami.is/share/VJfd6PO5sdvG5TB5'},
         ]
       }

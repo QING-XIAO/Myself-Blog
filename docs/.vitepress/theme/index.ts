@@ -40,6 +40,7 @@ import { useGuangbiaoTX } from "./components/guangbiaoTX/useGuangbiaoTX"; // ⬅
 
 import confetti from "./components/Confetti.vue"; // 主页五彩纸屑
 import sakura from './components/sakura.js'; // 主页樱花飘落
+import SLink from "./components/SLink/index.vue"; // 注册友链组件
 
 export default {
   extends: Teek,
@@ -49,7 +50,8 @@ export default {
   },
   enhanceApp({ app }) {
     // 注册组件
-    app.component('confetti' , confetti)  //五彩纸屑
+    app.component('confetti' , confetti);  //五彩纸屑
+    app.component("friend-link", SLink);  // 友链
   },
   // enhanceApp({ app }) {
   //   app.use(sakura); // 樱花飘落
