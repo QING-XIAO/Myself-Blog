@@ -439,6 +439,12 @@ const teekConfig = defineTeekConfig({
       },
     },
     {
+      provider: "google",
+      options: {
+        id: "G-XXPL68MHJ2",
+      },
+    },
+    {
       provider: "umami",
       options: {
         id: "f02e3b189928",
