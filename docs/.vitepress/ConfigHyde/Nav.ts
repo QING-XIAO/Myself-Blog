@@ -7,14 +7,7 @@ export default [
 
       { text: '📢博客',
         items: [
-            {
-                text: '🧩博客搭建', 
-                items: [
-                    {text: 'VitePress', link: 'https://vitepress.dev/zh/',},
-                    {text: 'CloudFlare', link: 'https://dash.cloudflare.com/',},
-                    {text: 'Vitepress Theme Teek', link: 'https://vp.teek.top/',},
-                ]
-            },
+            { text: '🪄博客搭建及美化', link: '/08.Blog/01.搭建/01.搭建个人博客.md' },
             {
                 text: '🪁图床搭建', 
                 items: [
@@ -25,14 +18,6 @@ export default [
                     {text: 'Wallspic', link: 'https://wallspic.com/cn',},
                 ]
             },
-            {
-                text: '🪄博客美化', 
-                items: [
-                    {text: 'emoji表情', link: 'https://www.webfx.com/tools/emoji-cheat-sheet/',},
-                    {text: 'Canvas Confetti', link: 'https://www.kirilv.com/canvas-confetti/',},
-
-                ]
-            }
         ],
       },
 
