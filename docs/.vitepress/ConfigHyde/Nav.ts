@@ -79,7 +79,7 @@ export default [
           {text: '⏳ 归档页', link: '/archives'},
           {text: '⚓ 标签页', link: '/tags'},
           {text: '🔗 我的友链', link: '/07.FriendLink/01.我的友链.md'},
-          {text: '🌏 网站统计', link: 'https://cloud.umami.is/share/VJfd6PO5sdvG5TB5'},
+          {text: '🌏 网站统计', link: 'https://cloud.umami.is/share/YzFoZ754lQe6j0Eg'},
         ]
       }
     ];
