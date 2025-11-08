@@ -65,7 +65,7 @@ const config = {
   authorName: 'QING-XIAO',
   authorUrl: 'https://github.com/QING-XIAO',
   siteName: `QING-XIAO's Blog`,
-  siteUrl: 'https://myself-blog.pages.dev/',
+  siteUrl: 'https://xiaoqing.us.kg/',
   licenseName: 'CC BY-NC-SA 4.0',
   licenseUrl: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh'
 }

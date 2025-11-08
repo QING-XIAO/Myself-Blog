@@ -8,16 +8,8 @@ export default [
       { text: '📢博客',
         items: [
             { text: '🪄博客搭建及美化', link: '/08.Blog/01.搭建/01.搭建个人博客.md' },
-            {
-                text: '🪁图床搭建', 
-                items: [
-                    {text: 'CloudFlare-ImgBed', link: '/02.ImgBed/01.图床搭建.md',},
-                    {text: 'Myself图床', link: 'https://cloudflare-imgbed-8mr.pages.dev/',},
-                    {text: '免版税图片', link: 'https://pixabay.com/',},
-                    {text: '图片压缩', link: 'https://squoosh.app/',},
-                    {text: 'Wallspic', link: 'https://wallspic.com/cn',},
-                ]
-            },
+            { text: '🪁图床搭建', link: '/02.ImgBed/01.图床搭建.md'},
+            { text: '🎄Myself图床', link: 'https://xiaoqing666.dpdns.org/'},
         ],
       },
 

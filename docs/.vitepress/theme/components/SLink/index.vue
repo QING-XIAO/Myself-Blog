@@ -111,7 +111,7 @@
         <!-- 示例格式 -->
         <pre ref="messageFormat">
 名称: QING-XIAO
-链接: https://myself-blog.pages.dev/
+链接: https://xiaoqing.us.kg/
 头像: https://cloudflare-imgbed-8mr.pages.dev/file/Website/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E5%A4%B4%E5%83%8F.jpg
 描述: 唯信仰与日月亘古不灭</pre>
         <!-- 评论区插槽 -->
