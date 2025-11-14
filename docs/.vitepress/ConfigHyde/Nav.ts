@@ -4,12 +4,11 @@ export default [
         text: '🏡首页',
         link: '/',
       },
-
+      { text: '🎄Myself图床', link: 'https://xiaoqing666.dpdns.org/'},
       { text: '📢博客',
         items: [
             { text: '🪄博客搭建及美化', link: '/08.Blog/01.搭建/01.搭建个人博客.md' },
             { text: '🪁图床搭建', link: '/02.ImgBed/01.图床搭建.md'},
-            { text: '🎄Myself图床', link: 'https://xiaoqing666.dpdns.org/'},
         ],
       },
 
